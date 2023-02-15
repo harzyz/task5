@@ -1,0 +1,211 @@
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: #C5E4E7;
+}
+.logo {
+    position: relative;
+    top: 100px;
+    left: 640px;
+}
+.container{
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px 10px;
+    height: 300px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    margin: 130px auto;
+}
+p {
+    color: hsl(184, 14%, 56%);
+    font-size: 12px;
+}
+.screen img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+input {
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    height: 30px;
+    width: 100%;
+    text-align: right;
+    border: 0;
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(184, 14%, 56%);
+    cursor: pointer;
+}
+.box1 {
+    padding: 0 20px;
+    width: 40%;
+}
+.screen{
+    position: relative;
+}
+.tip-percent {
+    margin: 0 auto;
+}
+.percent1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.percent2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.percent2 input {
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    color: hsl(184, 14%, 56%);
+    height: 35px;
+    width: 80px;
+    border: 0;
+    text-align: right;
+    cursor: pointer;
+}
+.tip-percent {
+    display: block;
+}
+.tip-percent1 {
+    display: none;
+}
+.tip-percent button {
+    color: white;
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    height: 35px;
+    width: 80px;
+    background-color: hsl(183, 100%, 15%);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tip-percent button:hover {
+    background-color: #26C2AD;
+    color: #00474B;
+}
+.people {
+    position: relative; 
+}
+.people img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.box2 {
+    border-radius: 10px;
+    padding: 0 20px;
+    width: 40%;
+    background-color: hsl(183, 100%, 15%);
+}
+h1 {
+    color: #25BFA9;
+}
+.tip-amount {
+    display: flex;
+    justify-content: space-between;
+}
+.tip-amount p {
+    color: white;
+}
+.tip-amount p span {
+    color: hsl(186, 14%, 43%);
+}
+.total {
+    /* border: 1px solid brown; */
+    display: flex;
+    justify-content: space-between;
+}
+.total p {
+    color: white;
+}
+.total p span {
+    color: hsl(186, 14%, 43%);
+}
+.reset {
+    background-color: #0D686D;
+    color: #054144;
+    font-family: 'Space Mono', monospace;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 60px;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+}
+.reset:hover {
+    background-color: #26C2AD;
+    color: #00474B;
+}
+@media  screen and (max-width:700px) {
+    .logo{
+        position: relative;
+        top: 30px;
+        left: 120px;
+    }
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    .container {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        margin-top: 70px;
+    }
+    .box1{
+        height: 100%;
+        width: 80%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .tip-percent{
+        display: none;
+    }
+    .tip-percent1{
+        display: block;
+    }
+    .tip-percent1 button:hover {
+        background-color: #26C2AD;
+        color: #00474B;
+    }
+    .box2{
+        height: 100%;
+        width: 80%;
+        margin: 20px 10px;
+        padding-bottom: 15px;
+    }
+    .tip-percent1 button{
+        width: 45%;
+        color: white;
+        font-size: 20px;
+        font-family: 'Space Mono', monospace;
+        background-color: hsl(183, 100%, 15%);
+        border: 0;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .percent3 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .percent4 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .percent5 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .percent5 input {
+        width: 45%;
+    }
+
+}
