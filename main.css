@@ -156,12 +156,15 @@ h1 {
         height: 100%;
         width: 100%;
         margin-top: 70px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
     }
     .box1{
         height: 100%;
         width: 80%;
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .tip-percent{
         display: none;
@@ -176,7 +179,7 @@ h1 {
     .box2{
         height: 100%;
         width: 80%;
-        margin: 20px 10px;
+        margin: 20px auto;
         padding-bottom: 15px;
     }
     .tip-percent1 button{
